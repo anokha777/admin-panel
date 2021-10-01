@@ -1,0 +1,52 @@
+{
+  "name": "admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "antd-img-crop": "^3.16.0",
+    "axios": "^0.21.4",
+    "craco-less": "^1.20.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.1"
+  },
+  "scripts": {
+    "start1": "react-scripts start",
+    "build1": "react-scripts build",
+    "test1": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start2": "craco start",
+    "start": "node server.js",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
