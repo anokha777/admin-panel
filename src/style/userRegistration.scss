@@ -13,6 +13,10 @@
     padding: 10px;
 }
 
+.ant-form-item-label > label {
+    font-size: 16px;
+}
+
 @media screen and (max-width: 480px) {
     .ant-layout-header {
         font-size: 14px;
