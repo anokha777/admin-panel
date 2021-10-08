@@ -207,6 +207,7 @@ const UserRegistration = () => {
           scrollToFirstError
           layout="vertical"
           className="form-layout"
+          size="large"
         >
           
             <Row gutter={24}>
@@ -323,23 +324,6 @@ const UserRegistration = () => {
             </Row>
 
             <Row gutter={24}>
-              <Col xs={24} sm={24} md={12} lg={12} xl={12}>
-                <Form.Item
-                  name="nationId"
-                  label="Country"
-                  rules={[
-                    {
-                      required: true,
-                      message: 'Please select country!',
-                    },
-                  ]}
-                >
-                  <Select placeholder="Select Country">
-                    <Option value="1">India</Option>
-                    
-                  </Select>
-                </Form.Item>
-              </Col>
               <Col xs={24} sm={24} md={12} lg={12} xl={12}> 
                 <Form.Item
                   name="provinceOrStateId"
@@ -387,6 +371,23 @@ const UserRegistration = () => {
                     <Option value="33">Ladakh</Option>
                     <Option value="34">Lakshadweep</Option>
                     <Option value="35">Puducherry</Option>
+                    
+                  </Select>
+                </Form.Item>
+              </Col>
+              <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+                <Form.Item
+                  name="nationId"
+                  label="Country"
+                  rules={[
+                    {
+                      required: true,
+                      message: 'Please select country!',
+                    },
+                  ]}
+                >
+                  <Select placeholder="Select Country">
+                    <Option value="1">India</Option>
                     
                   </Select>
                 </Form.Item>
